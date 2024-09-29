@@ -1,0 +1,80 @@
+# bytecode / optimized / DLL
+__pycache__/
+*.py[cod]
+*$py.class
+
+# c
+*.so
+
+# distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# jupyter
+.ipynb_checkpoints
+
+# local
+local/
+notes/
+old/
+out/
+output/
+res/
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# sphinx
+docs/_build/
+
+# testing files
+testing.py
+
+# testing tools
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# vscode
+.vscode/
+
+# windows
+*.lnk
